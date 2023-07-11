@@ -4,6 +4,7 @@ import { useState } from "react";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
 import InboxIcon from "@mui/icons-material/Inbox";
 import { NavLink } from "react-router-dom";
+import { Start } from "@mui/icons-material";
 
       const navLinks = [
         {
@@ -19,8 +20,11 @@ export default function Navbar() {
 
     return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" elevation={0}>
       <Toolbar>
+        <Box sx={{ padding: 1}}>
+          <img src="https://placehold.co/100x100" alt="logo de mi pagina" />
+        </Box>
         <Box sx={{ flexGrow: 1 }}></Box>
         <Box sx={{ display: { xs: "flex", sm: "none" } }}>
           <IconButton
@@ -33,13 +37,23 @@ export default function Navbar() {
             <MenuIconRounded />
           </IconButton>
         </Box>
-        <Box sx={{ display: { xs: "none", sm: "block" } }}>
+        <Box sx={{ justifySelf:"end", alignSelf: "middle",display: { xs: "none", sm: "block" } }}>
           {navLinks.map((item) => (
-            <Button
+            <Button // estos son los botones de el header
               color="inherit"
               key={item.title}
               component={NavLink}
               to={item.path}
+              disableRipple
+              sx={{
+                fontFamily: 'Arial, sans-serif', // Cambia el tipo de fuente aquí
+                fontSize: '16px',
+                '&:hover': {
+                  backgroundColor: 'inherit',
+                  color: 'inherit',
+                  fontSize: '18px',// Cambia el tamaño de fuente aquí
+                },
+              }}
             >
               {item.title}
             </Button>
