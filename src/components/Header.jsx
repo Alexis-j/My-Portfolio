@@ -4,7 +4,7 @@ import { useState } from "react";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
 import InboxIcon from "@mui/icons-material/Inbox";
 import { NavLink } from "react-router-dom";
-import { Start } from "@mui/icons-material";
+import  HeaderPic  from "../assets/img/pngwing.com.png";
 
       const navLinks = [
         {
@@ -22,8 +22,8 @@ export default function Navbar() {
     <>
       <AppBar position="static" elevation={0}>
       <Toolbar>
-        <Box sx={{ padding: 1}}>
-          <img src="https://placehold.co/100x100" alt="logo de mi pagina" />
+        <Box sx={{ padding: 1, height:100, width:100}}>
+          <img src={HeaderPic} alt="logo de mi pagina" style={{ width: '100%', height: '100%', }} />
         </Box>
         <Box sx={{ flexGrow: 1 }}></Box>
         <Box sx={{ display: { xs: "flex", sm: "none" } }}>

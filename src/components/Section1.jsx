@@ -39,9 +39,9 @@ export default function Section1() {
             }
           }}>
             <Box sx={{
-              width: 300,
+              width: 275,
               maxWidth: "100%",
-              height: 300,
+              height: 275,
               maxHeight:"100%",
               boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
               borderRadius: "5px",
@@ -58,6 +58,7 @@ export default function Section1() {
               <Typography
                 variant="h3"
                 component="h3"
+                gutterBottom
               >
                 Hi, I am <br />
                 <strong>Alexis Jimenez C</strong>
