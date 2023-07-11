@@ -23,7 +23,7 @@ const theme = createTheme({
 export default function Section1() {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="md">
+      <Container maxWidth="md" style={{marginTop:5}}>
         <section>
           <Box sx={{
             display: "flex",
@@ -51,10 +51,10 @@ export default function Section1() {
                 marginRight: "1rem",
               }
             }}>
-              <img src={ProfilePic} alt="logo_cv" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: "5px", display: "block", margin: 0 }} />
+              <img src={ProfilePic} alt="logo_cv" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: "5px", display: "block", margin: 0}} />
             </Box>
 
-            <Box sx={{ color: "inherit", flexGrow: 1 }}>
+            <Box sx={{ color: "inherit", flexGrow: 0 }}>
               <Typography
                 variant="h3"
                 component="h3"
@@ -72,7 +72,7 @@ export default function Section1() {
               </Typography>
               <Button
                 variant="contained"
-                style={{ backgroundColor: "#084d01", color: "#fff" }}
+                style={{ backgroundColor: "#084d01", color: "#fff", width:150, marginTop:20 }}
               >CONTACT</Button>
             </Box>
           </Box>
