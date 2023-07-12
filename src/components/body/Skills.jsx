@@ -1,7 +1,7 @@
 import { Container, Typography } from '@mui/material';
 import React from 'react';
 
-export default function Section2() {
+export default function Skills() {
   return (
     <>
     <Container maxWidth="md">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
 import InboxIcon from "@mui/icons-material/Inbox";
 import { NavLink } from "react-router-dom";
-import  HeaderPic  from "../assets/img/pngwing.com.png";
+import  HeaderPic  from "../../assets/img/pngwing.com.png";
 
       const navLinks = [
         {
