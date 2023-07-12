@@ -1,6 +1,6 @@
 import { List, ListItem, ListItemText, ListItemButton, IconButton } from "@mui/material";
 import { Box } from "@mui/system";
-import ClearIcon from '@mui/icons-material/Clear';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 export default function NavListDrawer({ navLinks, NavLink, setOpen }) {
@@ -8,11 +8,11 @@ export default function NavListDrawer({ navLinks, NavLink, setOpen }) {
     <Box sx={{ width: 200, bgcolor: "#ffffff" }}>
       <nav>
         <List>
-        <IconButton>
-          <Box sx={{ marginRight: "auto" }}>
+          <Box sx={{ marginLeft: 20 }}>
+            <IconButton onClick={() => setOpen(false)}>
+              <CloseIcon />
+            </IconButton>
           </Box>
-          <ClearIcon />
-        </IconButton>
           {navLinks.map((item) => (
             <ListItem
               disablePadding
@@ -28,6 +28,7 @@ export default function NavListDrawer({ navLinks, NavLink, setOpen }) {
               </ListItemButton>
             </ListItem>
           ))}
+
         </List>
       </nav>
     </Box>
