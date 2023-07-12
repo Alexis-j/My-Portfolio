@@ -25,7 +25,7 @@ export default function Section1() {
     <ThemeProvider theme={theme}>
       <Container maxWidth="md" style={{marginTop:5}}>
         <section>
-          <Box sx={{
+          <Box sx={{ // toda la caja que envuelte, foto, nombre, btn
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -38,7 +38,7 @@ export default function Section1() {
               textAlign: "left",
             }
           }}>
-            <Box sx={{
+            <Box sx={{ // esta es la imagen
               width: 275,
               maxWidth: "100%",
               height: 275,
