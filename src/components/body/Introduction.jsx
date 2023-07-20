@@ -23,7 +23,7 @@ const theme = createTheme({
 export default function Introduction() {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="md" style={{marginTop:5}}>
+      <Box sx={{marginTop:5}}>
         <section>
           <Box sx={{ // toda la caja que envuelte, foto, nombre, btn
             display: "flex",
@@ -43,7 +43,7 @@ export default function Introduction() {
               maxWidth: "100%",
               height: 275,
               maxHeight:"100%",
-              boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+              boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
               borderRadius: "5px",
               marginBottom: "0",
               '@media (min-width: 600px)': {
@@ -59,6 +59,12 @@ export default function Introduction() {
                 variant="h3"
                 component="h3"
                 gutterBottom
+                sx={{
+                  fontSize: '2rem', // Tamaño para pantallas más pequeñas
+                  '@media (min-width: 600px)': {
+                    fontSize: '3rem', // Tamaño inicial
+                  },
+                }}
               >
                 Hi, I am <br />
                 <strong>Alexis Jimenez C</strong>
@@ -72,12 +78,14 @@ export default function Introduction() {
               </Typography>
               <Button
                 variant="contained"
-                style={{ backgroundColor: "#084d01", color: "#fff", width:150, marginTop:20 }}
-              >CONTACT</Button>
+                style={{ backgroundColor: "#084d01", color: "#fff", width: 150, marginTop: 20 }}
+              >
+                CONTACT
+              </Button>
             </Box>
           </Box>
         </section>
-      </Container>
+      </Box>
     </ThemeProvider>
   );
 }
