@@ -3,13 +3,12 @@ import { Box, Container, Typography } from '@mui/material';
 
 export default function AboutMe() {
   return (
-    <Container maxWidth="md">
+    <Container id="AboutMe" maxWidth="md" sx={{height:"100vh"}}>
       <Typography
         variant="h1"
         component="h3"
         align="center"
         sx={{
-
         }}
       > About Me
       </Typography>

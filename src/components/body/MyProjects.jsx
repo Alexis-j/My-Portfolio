@@ -3,9 +3,9 @@ import React from "react";
 import  Soozie  from "../../assets/img/Projecto Soozie.png";
 import  SunshineSage  from "../../assets/img/Projecto Wheater.png";
 
-export default function Myprofile() {
+export default function MyProjects() {
   return (
-    <Container
+    <Container id="MyProjects" sx={{height:"100vh"}}
     maxWidth="md"
     >
       <Typography

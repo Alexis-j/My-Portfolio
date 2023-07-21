@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfilePic from "../../assets/img/profile-photo.jpg";
-import { Box, Button, Typography, Container, createTheme, ThemeProvider } from '@mui/material';
+import { Box, Button, Typography, createTheme, ThemeProvider } from '@mui/material';
 
 // Crear un tema personalizado con tamaños de tipografía responsivos
 const theme = createTheme({
@@ -20,7 +20,7 @@ const theme = createTheme({
   },
 });
 
-export default function Introduction() {
+export default function Hero() {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{marginTop:5}}>
