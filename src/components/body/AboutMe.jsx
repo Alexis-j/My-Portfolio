@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 
 export default function AboutMe() {
@@ -14,7 +13,7 @@ export default function AboutMe() {
       </Typography>
       <Typography
         variant="h6"
-        component="p"
+        component="h2"
         align="center"
         gutterBottom
       >
@@ -31,6 +30,5 @@ export default function AboutMe() {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, esse fugit tempore possimus minus sed ipsam nobis, voluptatibus beatae praesentium inventore asperiores quisquam perspiciatis quibusdam odio, necessitatibus sapiente neque quam?
       </Typography>
     </Container>
-
   )
 }

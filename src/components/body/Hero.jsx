@@ -1,4 +1,3 @@
-import React from 'react';
 import ProfilePic from "../../assets/img/profile-photo.jpg";
 import { Box, Button, Typography, createTheme, ThemeProvider } from '@mui/material';
 

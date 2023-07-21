@@ -1,5 +1,4 @@
 import { Box, Container, Typography } from "@mui/material";
-import React from "react";
 import  Soozie  from "../../assets/img/Projecto Soozie.png";
 import  SunshineSage  from "../../assets/img/Projecto Wheater.png";
 
