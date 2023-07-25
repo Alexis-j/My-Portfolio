@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after {
-}
-
 :root {
   /*font-family*/
   /*font-weight*/
@@ -21,6 +16,17 @@
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
+html {
+  scroll-snap-type: y mandatory;
+}
+/**Sroll Snap**/
+
+.hero,
+.skills{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
 
 @media (min-width: 800px) {
   :root {

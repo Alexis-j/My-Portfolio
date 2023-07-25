@@ -23,7 +23,7 @@ export default function Hero() {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{marginTop:5}}>
-        <section>
+        <section id="hero">
           <Box sx={{ // toda la caja que envuelte, foto, nombre, btn
             display: "flex",
             flexDirection: "column",

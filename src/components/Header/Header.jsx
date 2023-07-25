@@ -1,6 +1,6 @@
-import { AppBar, Box, Button, Drawer, IconButton, Toolbar } from "@mui/material";
+import React, { useState } from "react";
 import NavListDrawer from "./NavListDrawer";
-import { useState } from "react";
+import { AppBar, Box, Button, Drawer, IconButton, Toolbar } from "@mui/material";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
 import HeaderPic from "../../assets/img/pngwing.com.png";
 
@@ -25,11 +25,16 @@ export default function Navbar() {
       const topOffset = targetElement.getBoundingClientRect().top;
       const headerOffset = 100; // Ajusta este valor según la altura de tu barra de navegación
       const totalOffset = topOffset + window.pageYOffset - headerOffset;
-      window.scroll({
-        top: totalOffset,
-        behavior: "smooth", // Esto realiza el desplazamiento suave
-      });
-      setOpen(false);
+
+      // Agregamos un pequeño retraso de 200 milisegundos antes de realizar el desplazamiento suave
+      setTimeout(() => {
+        window.scroll({
+          top: totalOffset,
+          behavior: "smooth", // Esto realiza el desplazamiento suave
+        });
+      }, 200); // Puedes ajustar el tiempo del retraso según lo desees
+
+      setOpen(false); // Cerramos el menú después de hacer clic en un enlace
     }
   };
 
@@ -46,15 +51,15 @@ export default function Navbar() {
           </Box>
           <Box sx={{ flexGrow: 1 }}></Box>
           <Box sx={{ display: { xs: "flex", sm: "none" } }}>
-            <IconButton
-              color="inherit"
-              size="larger"
-              variant="contained"
-              onClick={() => setOpen(true)}
-              sx={{ marginLeft: "auto" }}
-            >
-              <MenuIconRounded />
-            </IconButton>
+          <IconButton
+            color="inherit"
+            size="larger"
+            variant="contained"
+            onClick={() => setOpen(true)} // Establecemos el estado "open" en true al hacer clic en el botón de menú
+            sx={{ marginLeft: "auto" }}
+          >
+            <MenuIconRounded />
+          </IconButton>
           </Box>
           <Box
             sx={{
@@ -90,10 +95,10 @@ export default function Navbar() {
 
       <Drawer
         open={open}
-        anchor="right"
+        anchor="top"
         onClose={() => setOpen(false)}
       >
-        <NavListDrawer navLinks={navLinks} />
+        <NavListDrawer navLinks={navLinks} handleNavLinkClick={handleNavLinkClick} setOpen={setOpen} />
       </Drawer>
     </>
   );
