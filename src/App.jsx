@@ -1,5 +1,4 @@
 //App
-
 import { Container } from "@mui/material";
 import  Header  from "./components/Header/Header";
 import Hero from "./components/body/Hero";

@@ -1,39 +1,32 @@
-import { Box, Container, Typography } from '@mui/material';
-import { HtmlIcon } from "devicon/icons/html5";
-
+import { Box, Typography } from '@mui/material';
+import 'devicon/devicon.min.css';
 
 export default function Skills() {
   return (
-    <section id="skills" style={{ backgroundColor: "black"}}>
-      <Typography
-        variant="h2"
-        component="h3"
-        align="center"
-        padding={1}
-        color="#ffffff"
-      >
-        Skills
-      </Typography>
-      <Container maxWidth="sm">
+    <section id="skills" style={{ backgroundColor: "black", alignItems: "center" }}>
+      <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2, padding: 12, marginTop: 10 }}>
+        <Typography variant="h2" component="h3" color="#ffffff" sx={{marginBottom:5}}>
+          Skills
+        </Typography>
         <Box
-        sx={{
-          display:"grid",
-          gridTemplateColumns:"1fr 1fr 1fr",
-          gridTemplateRows:"1fr 1fr 1fr 1fr",
-          gap: 2,
-          marginBottom: 2,
-          maxWidth:"500px"
-        }}>
-          <HtmlIcon />
-          <CssIcon />
-          <JsIcon />
-          <TsIcon />
-          <ReactIcon />
-          <BootstrapIcon />
-          <GitIcon />
-          <GithubIcon/>
+          sx={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(75px, 1fr))", // 3 columns en pantallas mas pequenas
+            gap: 1,
+            width: "100%",
+          }}
+        >
+          <i className="devicon-html5-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-css3-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-javascript-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-bootstrap-plain-wordmark colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-react-original colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-git-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-vscode-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-ruby-plain colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-github-original colored" style={{ fontSize: "75px", color: "#ffffff" }}></i>
         </Box>
-      </Container>
+      </Box>
     </section>
-  )
+  );
 }

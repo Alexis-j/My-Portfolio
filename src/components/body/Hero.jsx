@@ -22,7 +22,7 @@ const theme = createTheme({
 export default function Hero() {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{margin:5  }}>
+      <Box sx={{margin: 10  }}>
         <section id="hero">
           <Box sx={{ // toda la caja que envuelte, foto, nombre, btn
             display: "flex",
