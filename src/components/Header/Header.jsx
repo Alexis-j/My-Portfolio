@@ -42,7 +42,8 @@ export default function Navbar() {
     <>
       <AppBar position="static" elevation={0}>
         <Toolbar>
-          <Box sx={{ padding: 1, height: 100, width: 100 }}>
+        {/* aqui esta la imagen */}
+          <Box sx={{ padding: 1, height: 1, width: 100 }}>
             <img
               src={HeaderPic}
               alt="logo de mi pagina"

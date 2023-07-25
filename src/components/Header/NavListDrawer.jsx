@@ -5,16 +5,15 @@ import CloseIcon from '@mui/icons-material/Close';
 
 export default function NavListDrawer({ navLinks, NavLink, handleNavLinkClick, setOpen }) {
   return (
-    <Box sx={{ width: 200, bgcolor: "#ffffff" }}>
+    <Box sx={{ bgcolor: "#ffffff", display: "flex", justifyContent: "flex-end"}}>
       <nav>
         <List>
-          <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 16px" }}>
+          <Box sx={{ display: "flex", justifyContent: "flex-end", alignItems: "center", padding: "0 16px" }}>
             {/* Mueve el CloseIcon completamente a la izquierda */}
             <IconButton onClick={() => setOpen(false)}>
               <CloseIcon />
             </IconButton>
-            <div></div> {/* Un espacio en blanco para ajustar la posición del CloseIcon */}
-          </Box>
+          </Box >
           {navLinks.map((item) => (
             <ListItem disablePadding key={item.title}>
               <ListItemButton

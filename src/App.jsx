@@ -13,10 +13,10 @@ export default function App() {
       <Header />
       <Container sx={{ mt: 5 }}>
         <Hero />
+      </Container>
         <Skills />
         <AboutMe />
         <MyProjects />
-      </Container>
     </>
   );
 }
