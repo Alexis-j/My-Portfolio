@@ -1,6 +1,6 @@
 import ProfilePic from "../../assets/img/profile-photo.jpg";
 import { Box, Typography, createTheme, ThemeProvider } from '@mui/material';
-import BtnContact from "../btns/btn-contact";
+import BtnContact from "../btns/BtnContact";
 
 // Crear un tema personalizado con tamaños de tipografía responsivos
 const theme = createTheme({

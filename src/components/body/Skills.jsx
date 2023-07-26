@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import BtnProjects from "../btns/btns-projects";
+import BtnProjects from "../btns/BtnsProjects";
 import 'devicon/devicon.min.css';
 
 export default function Skills() {

@@ -1,7 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
-import Soozie from "../../assets/img/Projecto Soozie.png";
-import SunshineSage from "../../assets/img/Projecto Wheater.png";
-
+import SunshinesageProject  from "../Projects/SunshinesageProject";
+import SoozieProject from "../Projects/SoozieProjets";
+import  BtnDemo  from "../btns/BtnDemo";
+import BtnGithub from "../btns/BtnGithub";
 export default function MyProjects() {
   return (
     <section id="Projects" style={{ backgroundColor: "black", alignItems: "center" }}>
@@ -22,33 +23,49 @@ export default function MyProjects() {
             gap: 3
           }}
         >
-          <Box
-            sx={{
-              width: "350px",
-              height: "175px",
-              borderRadius: "5px",
-              margin: 0,
-              border: "2px solid white",
-              overflow: "hidden", // Para recortar la imagen que se sale del contenedor
-              transition: 'transform 3s', // Ajusta la duración de la transición aquí
-              '&:hover img': {
-                transform: 'scale(1.2)', // Ajusta el valor de escala para controlar el acercamiento de la imagen
-              },
-            }}
-          >
-            <img
-              src={SunshineSage}
-              alt="Projecto Wheater"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                borderRadius: "5px",
-              }}
-            />
+          <Box>
+            <SunshinesageProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                <BtnDemo />
+                <BtnGithub />
+              </Box>
+          </Box>
+          <Box>
+            <SoozieProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                  <BtnDemo />
+                  <BtnGithub />
+              </Box>
+          </Box>
+          <Box>
+            <SunshinesageProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                <BtnDemo />
+                <BtnGithub />
+              </Box>
+          </Box>
+          <Box>
+            <SoozieProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                  <BtnDemo />
+                  <BtnGithub />
+              </Box>
+          </Box>
+          <Box>
+            <SunshinesageProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                <BtnDemo />
+                <BtnGithub />
+              </Box>
+          </Box>
+          <Box>
+            <SoozieProject />
+              <Box sx={{display:"flex", justifyContent:"space-around"}}>
+                  <BtnDemo />
+                  <BtnGithub />
+              </Box>
           </Box>
         </Box>
-
       </Container>
     </section>
   );
