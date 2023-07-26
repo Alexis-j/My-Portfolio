@@ -10,8 +10,8 @@ const CustomButton = styled(Button)({
   transition: 'transform 0.3s',// Ajusta la duración de la transición aquí
   textTransform: "none",
   '&:hover': {
-    backgroundColor: "#ffffff",
-    color:"black",
+    backgroundColor: "#fadb85",
+    color:"#001023",
     transform: 'scale(1.05)',
     textTransform: "none",// Ajusta el valor de escala para controlar el crecimiento
   },

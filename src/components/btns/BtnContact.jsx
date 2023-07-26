@@ -23,7 +23,7 @@ export default function BtnContact() {
     <Button
       variant="contained"
       onClick={handleButtonClick} // Utiliza el nuevo manejador de clic
-      style={{ backgroundColor: "#084d01", color: "#fff", width: 150, marginTop: 20 }}
+      style={{ backgroundColor: "#fadb85", color: "#001023", width: 150, marginTop: 20 }}
     >
       CONTACT
     </Button>

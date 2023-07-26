@@ -40,7 +40,7 @@ export default function Navbar() {
 
     return (
       <>
-      <AppBar position="static" elevation={0}>
+      <AppBar position="static" elevation={0} sx={{backgroundColor:"#fff"}}>
         <Toolbar>
         {/* aqui esta la imagen */}
           <Box sx={{ padding: 1, height: 1, width: 100 }}>

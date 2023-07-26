@@ -34,7 +34,7 @@ export default function AboutMe() {
 
           <Box
           sx={{
-            bgcolor: "#084d01",
+            bgcolor: "#001023",
             color: "#ffffff",
             borderRadius: "2px",
             textAlign: "start",
