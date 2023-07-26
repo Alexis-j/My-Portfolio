@@ -6,11 +6,14 @@ const CustomButton = styled(Button)({
   color: "#fff",
   width: 100,
   marginTop: 20,
+  border: "2px solid",
   transition: 'transform 0.3s', // Ajusta la duración de la transición aquí
+  textTransform: "none",
   '&:hover': {
     backgroundColor: "#ffffff",
     color:"black",
-    transform: 'scale(1.05)', // Ajusta el valor de escala para controlar el crecimiento
+    transform: 'scale(1.05)',
+    textTransform: "none", // Ajusta el valor de escala para controlar el crecimiento
   },
 });
 

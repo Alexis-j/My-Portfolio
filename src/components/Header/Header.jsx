@@ -7,11 +7,11 @@ import HeaderPic from "../../assets/img/pngwing.com.png";
 const navLinks = [
   {
     title: "About",
-    path: "#AboutMe", // Utilizamos el identificador para navegar a la sección "AboutMe"
+    path: "#AboutMe",
   },
   {
     title: "Projects",
-    path: "#MyProjects",// Utilizamos el identificador para navegar a la sección "MyProjects"
+    path: "#MyProjects",
   },
 ];
 
@@ -23,23 +23,23 @@ export default function Navbar() {
     const targetElement = document.querySelector(path);
     if (targetElement) {
       const topOffset = targetElement.getBoundingClientRect().top;
-      const headerOffset = 100; // Ajusta este valor según la altura de tu barra de navegación
+      const headerOffset = 100;
       const totalOffset = topOffset + window.pageYOffset - headerOffset;
 
-      // Agregamos un pequeño retraso de 200 milisegundos antes de realizar el desplazamiento suave
+      // Desplazamiento suave
       setTimeout(() => {
         window.scroll({
           top: totalOffset,
-          behavior: "smooth", // Esto realiza el desplazamiento suave
+          behavior: "smooth",
         });
-      }, 200); // Puedes ajustar el tiempo del retraso según lo desees
+      }, 200);
 
       setOpen(false); // Cerramos el menú después de hacer clic en un enlace
     }
   };
 
-  return (
-    <>
+    return (
+      <>
       <AppBar position="static" elevation={0}>
         <Toolbar>
         {/* aqui esta la imagen */}

@@ -5,7 +5,7 @@ import  BtnDemo  from "../btns/BtnDemo";
 import BtnGithub from "../btns/BtnGithub";
 export default function MyProjects() {
   return (
-    <section id="Projects" style={{ backgroundColor: "black", alignItems: "center" }}>
+    <section id="MyProjects" style={{ backgroundColor: "black", alignItems: "center" }}>
       <Container maxWidth="lg" sx={{ padding: 1 }}>
         <Typography variant="h2" component="h4" align="center" gutterBottom style={{ color: "#ffffff" }}>
           My Projects
@@ -27,14 +27,14 @@ export default function MyProjects() {
             <SunshinesageProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                 <BtnDemo />
-                <BtnGithub />
+                <BtnGithub href="https://github.com/Alexis-j/SunshineSage" />
               </Box>
           </Box>
           <Box>
             <SoozieProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                   <BtnDemo />
-                  <BtnGithub />
+                  <BtnGithub href="https://github.com/Alexis-j/storyai"/>
               </Box>
           </Box>
           <Box>
