@@ -17,55 +17,38 @@ export default function MyProjects() {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
-            justifyContent: "center", // Corregido a "center"
+            justifyContent: "center",
             alignItems: "center",
-            gap: 3,
+            gap: 3
           }}
         >
-          <Box>
+          <Box
+            sx={{
+              width: "350px",
+              height: "175px",
+              borderRadius: "5px",
+              margin: 0,
+              border: "2px solid white",
+              overflow: "hidden", // Para recortar la imagen que se sale del contenedor
+              transition: 'transform 3s', // Ajusta la duración de la transición aquí
+              '&:hover img': {
+                transform: 'scale(1.2)', // Ajusta el valor de escala para controlar el acercamiento de la imagen
+              },
+            }}
+          >
             <img
               src={SunshineSage}
               alt="Projecto Wheater"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }} // Corregido "sold" a "solid"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                borderRadius: "5px",
+              }}
             />
           </Box>
-          <Box>
-            <img
-              src={Soozie}
-              alt="Projecto Soozie"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }}
-            />
-          </Box>
-          <Box>
-            <img
-              src={SunshineSage}
-              alt="Projecto Wheater"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }} // Corregido "sold" a "solid"
-            />
-          </Box>
-          <Box>
-            <img
-              src={Soozie}
-              alt="Projecto Soozie"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }}
-            />
-          </Box>
-          <Box>
-            <img
-              src={SunshineSage}
-              alt="Projecto Wheater"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }} // Corregido "sold" a "solid"
-            />
-          </Box>
-          <Box>
-            <img
-              src={Soozie}
-              alt="Projecto Soozie"
-              style={{ width: "350px", height: "175px", objectFit: "cover", borderRadius: "5px", margin: 0, border: "2px solid white" }}
-            />
-          </Box>
-
         </Box>
+
       </Container>
     </section>
   );
