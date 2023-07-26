@@ -11,7 +11,7 @@ export default function AboutMe() {
         display: "grid",
         gridTemplateColumns: "1fr", // Solo una columna en pantallas pequeñas
         gap: 2,
-        height: "100vh", // Esta línea hará que la sección ocupe toda la pantalla verticalmente
+        height: "100%", // Esta línea hará que la sección ocupe toda la pantalla verticalmente
         '@media (min-width: 600px)': {
           gridTemplateColumns: "2fr 1fr", // 66% para el título, 33% para el contenido en pantallas grandes
           gridTemplateRows: "auto 0.15fr 2fr auto", // Ajustar las filas para una mejor distribución vertical
