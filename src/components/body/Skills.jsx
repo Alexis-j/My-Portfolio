@@ -1,4 +1,5 @@
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+import BtnProjects from "../btns/btns-projects";
 import 'devicon/devicon.min.css';
 
 export default function Skills() {
@@ -26,14 +27,8 @@ export default function Skills() {
           <i className="devicon-ruby-plain colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-github-original colored" style={{ fontSize: "75px", color: "#ffffff" }}></i>
         </Box>
-
-        <Button
-          variant="contained"
-          style={{ backgroundColor: "#084d01", color: "#fff", width: 150, marginTop: 20 }}
-        >
-          Some Projects
-        </Button>
-      </Box>
+          <BtnProjects />
+        </Box>
     </section>
   );
 }
