@@ -6,6 +6,7 @@ import Skills from "./components/body/Skills";
 import AboutMe from "./components/body/AboutMe";
 import MyProjects from "./components/body/MyProjects";
 import Contact from "./components/body/Contact"
+import Footer from "./components/body/Footer";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <AboutMe />
         <MyProjects />
         <Contact />
+        <Footer />
     </>
   );
 }
