@@ -1,8 +1,8 @@
 import { useState } from "react";
 import NavListDrawer from "./NavListDrawer";
-import { AppBar, Box, Button, Drawer, IconButton, Toolbar } from "@mui/material";
+import { AppBar, Box, Button, Drawer, IconButton, Toolbar, Typography } from "@mui/material";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
-import HeaderPic from "../../assets/img/pngwing.com.png";
+import HeaderPic from "../../assets/img/logo.png.png";
 
 const navLinks = [
   {
@@ -43,12 +43,16 @@ export default function Navbar() {
       <AppBar position="static" elevation={0} sx={{backgroundColor:"#fff"}}>
         <Toolbar>
         {/* aqui esta la imagen */}
-          <Box sx={{ padding: 1, height: 1, width: 100 }}>
-            <img
-              src={HeaderPic}
-              alt="logo de mi pagina"
-              style={{ width: '100%', height: '100%' }}
-            />
+          <Box sx={{ padding: 1, height: 1, width: 140 }}>
+            <Typography
+            style={{
+              color:"#001023",
+              fontWeight:"bold",
+              fontSize:"25px"
+
+            }}>
+            &lt;Alexis-J /&gt;
+            </Typography>
           </Box>
           <Box sx={{ flexGrow: 1 }}></Box>
           <Box sx={{ display: { xs: "flex", sm: "none" } }}>
