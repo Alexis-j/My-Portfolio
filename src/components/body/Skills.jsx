@@ -6,8 +6,8 @@ export default function Skills() {
   return (
     <section id="skills" style={{ backgroundColor: "#001023", alignItems: "center" }}>
       <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2, padding: 12, marginTop: 10 }}>
-        <Typography variant="h2" component="h3" color="#ffffff" sx={{marginBottom:5}}>
-          Skills
+        <Typography variant="h2" component="h3" color="#ffffff" sx={{marginBottom:5, textTransform:"capitalize"}}>
+          SKILLS
         </Typography>
         <Box
           sx={{

@@ -17,9 +17,9 @@ const CustomButton = styled(Button)({
   },
 });
 
-export default function BtnDemo() {
+export default function BtnDemo( {href} ) {
   return (
-    <CustomButton variant="outlined">
+    <CustomButton variant="outlined" href={href} target="_blank">
       Demo
     </CustomButton>
   );

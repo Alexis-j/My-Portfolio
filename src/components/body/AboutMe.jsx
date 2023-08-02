@@ -57,11 +57,16 @@ export default function AboutMe() {
           gridRow: "3", // Tercera fila en pantallas grandes
         }}
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nemo cum nihil? Quibusdam nobis autem doloribus recusandae voluptates commodi libero ut laborum ullam, deleniti nam aperiam. Quod sapiente temporibus nemo.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore tempora adipisci amet exercitationem atque, quos ut maiores saepe voluptates sed non eligendi dicta. Non eligendi quidem assumenda esse iusto odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo modi, libero quisquam sequi distinctio amet rem similique! In animi repellat nostrum sunt ipsam id officiis delectus, commodi iste quam?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis temporibus beatae assumenda ea dolorum delectus nesciunt esse, aliquid similique, vel sapiente numquam odit. Non a dolorum aliquam commodi est asperiores.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quas. Dicta accusamus, earum quia hic facilis suscipit! Quia, quis ipsam? Debitis consequatur illum est. Quidem id corrupti assumenda? Quidem, earum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam! Explicabo facere maxime corporis at excepturi, aperiam illo ad iure odit, sed eaque nihil, nulla aliquid quibusdam omnis eius cumque!
+        I’m Alexis Jiménez Castillo, a dedicated junior full-stack developer residing in Berlin, originally from Costa Rica.
+        I have a strong focus on front-end development, designing engaging, user-friendly websites, i’m passionate about user-friendly websites and web applications.
+        My skills include HTML, CSS, Javascript, React, GIT, Github, however, I am constantly learning and i’m open to new technologies.
+        I spend my time on personal projects and learning more about Front-end and how to improve my skills.
+        <br /><br />
+        I’m primed to help you create a new website or transform an existing one to meet evolving needs. As a graduate from Le Wagon,
+        I am a fast, efficient, and resourceful learner.
+        With my abilities and skills, I can quickly solve problems.
+        In my free time, I enjoy spending time with my family in nature, reading Manga, riding Longboard & Surfing.
+
       </Typography>
 
       <Box
@@ -74,7 +79,7 @@ export default function AboutMe() {
           borderRadius: "5px",
           '@media (min-width: 600px)': {
             gridColumn: "2",
-            gridRow: "3 / 4", // Ocupa las filas 2 y 3 en pantallas grandes
+            gridRow: "2 / 4", // Ocupa las filas 2 y 3 en pantallas grandes
             minHeight: "275px", // Altura mínima para limitar el crecimiento del elemento
           },
         }}

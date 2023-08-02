@@ -36,7 +36,7 @@ export default function MyProjects() {
           <Box>
             <SoozieProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
-                  <BtnDemo />
+                  <BtnDemo href="https://www.soozie.xyz/"/>
                   <BtnGithub href="https://github.com/Alexis-j/storyai"/>
               </Box>
           </Box>
@@ -47,7 +47,7 @@ export default function MyProjects() {
                 <BtnGithub href="https://github.com/Alexis-j/Freelancer" />
               </Box>
           </Box>
-          <Box>
+          {/* <Box>
             <SoozieProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                   <BtnDemo />
@@ -67,7 +67,7 @@ export default function MyProjects() {
                 <BtnDemo />
                 <BtnGithub />
               </Box>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </section>
