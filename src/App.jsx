@@ -7,7 +7,7 @@ import AboutMe from "./components/body/AboutMe";
 import MyProjects from "./components/body/MyProjects";
 import Contact from "./components/body/Contact"
 import Footer from "./components/body/Footer";
-
+// import MediaCard from "./components/body/Card";
 
 export default function App() {
   return (
@@ -15,6 +15,7 @@ export default function App() {
       <Header />
       <Container sx={{ mt: 5 }}>
         <Hero />
+        {/* <MediaCard /> */}
       </Container>
         <Skills />
         <AboutMe />

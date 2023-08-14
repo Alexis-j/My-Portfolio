@@ -2,7 +2,6 @@ import { useState } from "react";
 import NavListDrawer from "./NavListDrawer";
 import { AppBar, Box, Button, Drawer, IconButton, Toolbar, Typography } from "@mui/material";
 import MenuIconRounded from '@mui/icons-material/MenuRounded';
-import HeaderPic from "../../assets/img/logo.png.png";
 
 const navLinks = [
   {
