@@ -28,14 +28,14 @@ export default function Contact() {
         </Box>
 
         {/* Twitter */}
-        <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" sx={{ margin: "0 10px", transition:"transform 0.5", "&:hover":{ transform: "scale(1.05)"} }}>
+        {/* <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" sx={{ margin: "0 10px", transition:"transform 0.5", "&:hover":{ transform: "scale(1.05)"} }}>
           <a href="https://twitter.com/tilloJC" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#001023" }}>
             <FontAwesomeIcon icon={faTwitter} style={{ color: "#001023", fontSize: "24px", margin: "10px" }} />
             <Typography component="p">
               Twitter
             </Typography>
           </a>
-        </Box>
+        </Box> */}
 
         {/* LinkedIn */}
         <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" sx={{ margin: "0 10px", transition:"transform 0.5", "&:hover":{ transform: "scale(1.05)"} }}>
@@ -48,14 +48,14 @@ export default function Contact() {
         </Box>
 
         {/* Twitch */}
-        <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" sx={{ margin: "0 10px", transition:"transform 0.5", "&:hover":{ transform: "scale(1.05)"} }}>
+        {/* <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" sx={{ margin: "0 10px", transition:"transform 0.5", "&:hover":{ transform: "scale(1.05)"} }}>
           <a href="https://www.twitch.tv/putillo23" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "#001023" }}>
             <FontAwesomeIcon icon={faTwitch} style={{ color: "#001023", fontSize: "24px", margin: "10px" }} />
             <Typography component="p">
               Twitch
             </Typography>
           </a>
-        </Box>
+        </Box> */}
       </Box>
     </section>
   );
