@@ -19,7 +19,6 @@ const ImageContainer = styled('div')({
     width: "100%",
     height: "100%",
     objectFit: "cover",
-    borderRadius: "5px", // Agregamos el borde redondeado aquí en lugar de en el contenedor
   },
   '&:hover': {
     transform: 'scale(1.2)', // Ajusta el valor de escala para controlar el crecimiento
