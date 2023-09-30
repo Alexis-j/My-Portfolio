@@ -50,7 +50,7 @@ export default function Navbar() {
               fontSize:"25px"
 
             }}>
-            &lt;Alexis-J /&gt;
+            &lt;Alexis /&gt;
             </Typography>
           </Box>
           <Box sx={{ flexGrow: 1 }}></Box>
