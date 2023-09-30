@@ -57,16 +57,16 @@ export default function AboutMe() {
           gridRow: "3", // Tercera fila en pantallas grandes
         }}
       >
-        I’m Alexis Jiménez Castillo, a dedicated junior full-stack developer residing in Berlin, originally from Costa Rica.
-        I have a strong focus on front-end development, designing engaging, user-friendly websites, i’m passionate about user-friendly websites and web applications.
-        My skills include HTML, CSS, Javascript, React, GIT, Github, however, I am constantly learning and i’m open to new technologies.
-        I spend my time on personal projects and learning more about Front-end and how to improve my skills.
-        <br /><br />
-        I’m primed to help you create a new website or transform an existing one to meet evolving needs. As a graduate from Le Wagon,
-        I am a fast, efficient, and resourceful learner.
-        With my abilities and skills, I can quickly solve problems.
-        In my free time, I enjoy spending time with my family in nature, reading Manga, riding Longboard & Surfing.
-
+        I'm Alexis Jiménez Castillo, a dedicated junior full-stack developer residing in Berlin, originally from Costa Rica.
+        I have a strong focus on front-end development and enjoy designing engaging, user-friendly websites and web applications.
+        My skills include HTML, CSS, JavaScript, React, GIT, and GitHub, however, I am constantly learning and remain open to new technologies.
+        I dedicate my time to personal projects and continuous improvement in front-end development.
+        <br />
+        I am well-prepared to help you create a new website or transform an existing one to meet evolving needs.
+        As a graduate of Le Wagon, I am a fast, efficient, and resourceful learner. With my abilities and skills,
+        I can quickly solve problems.
+        <br />
+        In my free time, I enjoy spending time with my family in nature, reading Manga, riding a longboard, surfing, and gaming.
       </Typography>
 
       <Box
