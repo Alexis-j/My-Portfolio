@@ -4,6 +4,7 @@ import SoozieProject from "../Projects/SoozieProjets";
 import FreelancerProject from "../Projects/FreelancerProject";
 import  BtnDemo  from "../btns/BtnDemo";
 import BtnGithub from "../btns/BtnGithub";
+import FestivalProject from "../Projects/Rock & EDM";
 
 
 export default function MyProjects() {
@@ -23,13 +24,13 @@ export default function MyProjects() {
             flexWrap: "wrap",
             justifyContent: "center",
             alignItems: "center",
-            gap: 3
+            gap: 5
           }}
         >
           <Box>
             <SunshinesageProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
-                <BtnDemo />
+                <BtnDemo href="https://zippy-mermaid-95d988.netlify.app"/>
                 <BtnGithub href="https://github.com/Alexis-j/SunshineSage" />
               </Box>
           </Box>
@@ -43,25 +44,25 @@ export default function MyProjects() {
           <Box>
             <FreelancerProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
-                <BtnDemo />
+                <BtnDemo href="https://peaceful-capybara-d5ba80.netlify.app/"/>
                 <BtnGithub href="https://github.com/Alexis-j/Freelancer" />
               </Box>
           </Box>
-          {/* <Box>
-            <SoozieProject />
+          <Box>
+            <FestivalProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
-                  <BtnDemo />
-                  <BtnGithub />
+                  <BtnDemo href="https://clinquant-heliotrope-dcddf9.netlify.app/"/>
+                  <BtnGithub href="https://github.com/Alexis-j/FestivalMusica"/>
               </Box>
           </Box>
-          <Box>
+          {/* <Box>
             <FreelancerProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                   <BtnDemo />
                   <BtnGithub />
               </Box>
-          </Box>
-          <Box>
+          </Box> */}
+          {/* <Box>
             <SunshinesageProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                 <BtnDemo />
