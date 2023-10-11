@@ -41,13 +41,13 @@ export default function MyProjects() {
                   <BtnGithub href="https://github.com/Alexis-j/storyai"/>
               </Box>
           </Box>
-          <Box>
+          {/* <Box>
             <FreelancerProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
                 <BtnDemo href="https://peaceful-capybara-d5ba80.netlify.app/"/>
                 <BtnGithub href="https://github.com/Alexis-j/Freelancer" />
               </Box>
-          </Box>
+          </Box> */}
           <Box>
             <FestivalProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
