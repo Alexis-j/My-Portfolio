@@ -1,7 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import SunshinesageProject  from "../Projects/SunshinesageProject";
 import SoozieProject from "../Projects/SoozieProjets";
-import FreelancerProject from "../Projects/FreelancerProject";
+// import FreelancerProject from "../Projects/FreelancerProject";
 import  BtnDemo  from "../btns/BtnDemo";
 import BtnGithub from "../btns/BtnGithub";
 import FestivalProject from "../Projects/Rock & EDM";

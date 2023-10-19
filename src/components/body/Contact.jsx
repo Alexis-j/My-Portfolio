@@ -1,7 +1,7 @@
 import { Typography, Box } from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faTwitch, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
