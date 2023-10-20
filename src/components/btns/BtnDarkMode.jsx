@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Luna from '@mui/icons-material/Brightness2Outlined'; // Icono de luna
+import Sol from '@mui/icons-material/LightModeOutlined'; // Icono de sol
 
 export default function DarkModeBtn() {
   // Estado para controlar el modo oscuro
@@ -36,8 +38,8 @@ export default function DarkModeBtn() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Button onClick={toggleDarkMode}>
-        {darkMode ? 'Desactivar Modo Oscuro' : 'Activar Modo Oscuro'}
+      <Button onClick={toggleDarkMode} style={{ color: 'black' }}>
+        {darkMode ? <Sol /> : <Luna />}
       </Button>
     </ThemeProvider>
   );
