@@ -19,8 +19,8 @@ export default function Skills() {
         >
           <i className="devicon-html5-plain colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-css3-plain colored" style={{ fontSize: "75px" }}></i>
-          <i className="devicon-javascript-plain colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-bootstrap-plain-wordmark colored" style={{ fontSize: "75px" }}></i>
+          <i className="devicon-javascript-plain colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-react-original colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-git-plain colored" style={{ fontSize: "75px" }}></i>
           <i className="devicon-vscode-plain colored" style={{ fontSize: "75px" }}></i>
