@@ -30,7 +30,7 @@ export default function MyProjects() {
           <Box>
             <SunshinesageProject />
               <Box sx={{display:"flex", justifyContent:"space-around"}}>
-                <BtnDemo href="https://zippy-mermaid-95d988.netlify.app"/>
+                <BtnDemo href="https://sunshine-sage-web-pronostico-tiempo.netlify.app/"/>
                 <BtnGithub href="https://github.com/Alexis-j/SunshineSage" />
               </Box>
           </Box>
