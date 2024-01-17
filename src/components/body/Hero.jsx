@@ -43,6 +43,7 @@ export default function Hero() {
               maxWidth: "100%",
               height: 275,
               maxHeight:"100%",
+              objectFit: 'cover',
               boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
               borderRadius: "5px",
               marginBottom: "0",
