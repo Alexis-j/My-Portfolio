@@ -1,5 +1,5 @@
-import AboutMe from "./components/body/aboutMe/AboutMe";
-import Contact from "./components/body/Contact"
+import AboutMe from "./components/body/aboutMe/";
+import Contact from "./components/body/contact/"
 //App
 import { Container } from "@mui/material";
 import Footer from "./components/body/Footer";
