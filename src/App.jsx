@@ -1,12 +1,12 @@
+import AboutMe from "./components/body/aboutMe/AboutMe";
+import Contact from "./components/body/Contact"
 //App
 import { Container } from "@mui/material";
+import Footer from "./components/body/Footer";
 import  Header  from "./components/Header/Header";
 import Hero from "./components/body/Hero";
-import Skills from "./components/body/Skills";
-import AboutMe from "./components/body/AboutMe";
 import MyProjects from "./components/body/MyProjects";
-import Contact from "./components/body/Contact"
-import Footer from "./components/body/Footer";
+import Skills from "./components/body/Skills";
 // import MediaCard from "./components/body/Card";
 
 export default function App() {
