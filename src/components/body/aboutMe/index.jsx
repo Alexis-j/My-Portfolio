@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./AboutMe.css";
 
 import AboutPic from "../../../assets/img/about_me.jpg";

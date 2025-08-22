@@ -1,0 +1,81 @@
+/* Contenedor principal */
+.hero-container {
+  margin: 2.5rem;
+}
+
+/* Flex contenedor para imagen y texto */
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .hero-flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+/* Contenedor de la imagen */
+.hero-image-wrapper {
+  width: 275px;
+  max-width: 100%;
+  height: 275px;
+  max-height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .hero-image-wrapper {
+    margin-right: 1rem;
+  }
+}
+
+/* Contenedor de texto */
+.hero-text {
+  color: inherit;
+  flex-grow: 0;
+}
+
+/* Tipografía */
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title strong {
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
