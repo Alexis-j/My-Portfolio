@@ -3,7 +3,7 @@ import Contact from "./components/body/contact";
 import { Container } from "@mui/material";
 import Footer from "./components/body/Footer";
 import  Header  from "./components/Header/Header";
-import Hero from "./components/body/hero/Index";
+import Hero from "./components/body/hero";
 import MyProjects from "./components/body/MyProjects";
 import Skills from "./components/body/Skills";
 
